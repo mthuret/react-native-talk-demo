@@ -62,8 +62,6 @@ class SearchBox extends Component {
   }
 }
 
-const ConnectedSearchBox = connectSearchBox(SearchBox)
-
 
 class InfiniteHits extends Component {
   onEndReached = () => {
@@ -98,8 +96,6 @@ class InfiniteHits extends Component {
     );
   }
 }
-
-const ConnectedInfiniteHits = connectInfiniteHits(InfiniteHits)
 
 
 const styles = StyleSheet.create({
